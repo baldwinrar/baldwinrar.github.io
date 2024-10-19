@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #FFCF99;
+}
+
+.banner {
+    background-color: #92140C;
+    height: 200px;
+}
+
+.linksbar {
+    background-color:#111D4A;
+    height: 40px;
+}
+
+.main {
+    margin-left: 20px;
+}
+
+.review {
+    display: grid;
+    grid-template-columns: auto auto;
+    border-left: 2px solid #555555;
+    border-bottom: 2px solid #202020;
+    border-right: 1px solid #202020;
+    border-top: 1px solid #202020;
+    background-color: darkgray;
+    width: 33%;
+    margin-bottom: 40px;
+}
+
+.review img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid grey;
+}
+
+.title {
+    display: grid;
+    grid-template-columns: auto;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.blurb {
+    border: 20px solid #361f05;
+    background-color: #FFF8F0;
+}
+
+.review p {
+    padding: 20px;
+}
