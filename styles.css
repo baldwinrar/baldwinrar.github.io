@@ -1,11 +1,11 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #252525;
+    background-color: #121212;
 }
 
 .banner {
-    background-color: #f39c12;
+    background-color: darkorange;
     height: 125px;
 }
 
@@ -13,6 +13,7 @@ body {
     font-size: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 25px;
+    font-style: italic;
 }
 
 .linksbar {
@@ -55,11 +56,8 @@ h1 {
 .review {
     display: grid;
     grid-template-columns: auto auto;
-    border-left: 2px solid #555555;
-    border-bottom: 2px solid #202020;
-    border-right: 1px solid #202020;
-    border-top: 1px solid #202020;
-    background-color: #ffbb33;
+    border: 2px solid #555555;
+    background-color: darkorange;
     width: 33%;
     margin-bottom: 40px;
     margin-left: auto;
@@ -85,8 +83,9 @@ h1 {
 }
 
 .blurb {
-    border: 20px solid #ffbb33;
-    background-color: #333333;
+    border: 20px solid darkorange;
+    background-color: #252525;
+    font-size: 20px;
 }
 
 .review p {
