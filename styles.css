@@ -1,21 +1,55 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #FFCF99;
+    background-color: #252525;
 }
 
 .banner {
-    background-color: #92140C;
-    height: 200px;
+    background-color: #f39c12;
+    height: 125px;
+}
+
+.sitename {
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 25px;
 }
 
 .linksbar {
-    background-color:#111D4A;
+    background-color:#333333;
     height: 40px;
+    font-size: 30px;
+}
+
+a {
+    margin-left: 20px;
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }
 
 .main {
-    margin-left: 20px;
+    color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
 }
 
 .review {
@@ -25,29 +59,34 @@ body {
     border-bottom: 2px solid #202020;
     border-right: 1px solid #202020;
     border-top: 1px solid #202020;
-    background-color: darkgray;
+    background-color: #ffbb33;
     width: 33%;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .review img {
     display: block;
     width: 150px;
     height: 150px;
-    margin: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: 20px;
     border: 1px solid grey;
 }
 
 .title {
     display: grid;
+    padding-left: 10px;
     grid-template-columns: auto;
-    border: 2px solid gray;
     text-align: center;
+    color:#252525;
 }
 
 .blurb {
-    border: 20px solid #361f05;
-    background-color: #FFF8F0;
+    border: 20px solid #ffbb33;
+    background-color: #333333;
 }
 
 .review p {
